@@ -1,0 +1,229 @@
+#slide{
+        background-color: green;
+        height: 150px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#h1{
+        font-family: fantasy;
+        font-size: 100px;
+        
+}
+#main{
+        height: 500px;
+        width: 1531px;
+        background-color: aliceblue;
+}
+#div{
+        
+        height: 100px;
+        width: 100px;
+}
+#btn{
+        border-radius: 20px;
+        height: 60px;
+        width: 180px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: green;
+        color: white;
+        border: none;
+}
+#btn:hover{
+        background-color: white;
+        color: green;
+        border: 3px solid green;
+}
+#abc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#grid{
+        
+        height: 300px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+}
+#grid:hover #add{
+        display: block;
+}
+#grid:hover #add1{
+        display: block;
+}
+
+#add{
+        width: 170px;
+        height: 40px;
+        margin-top: -10px;
+        border-radius: 20px;
+        border: none;
+        background-color: green;
+        color: white;
+        display: none;
+}
+#add1{
+        width: 170px;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: green;
+        color: white;
+        display: none;
+}
+#add:hover{
+        background-color: white;
+        color: green;
+        border: 2px solid green;
+        display: block;
+}
+#add1:hover{
+        background-color: white;
+        color: green;
+        border: 2px solid green;
+        display: block;
+}
+#navbar{
+                position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        /* background-color: rgb(198, 242, 198,0); */
+        z-index: 11;
+        height: 90px;
+        font-size: 25px;
+        font-family: fantasy;
+        background-color: white;
+}
+.offer{
+        position: relative;
+}
+#off{
+        position: absolute;
+        border-radius: 50%;
+        background-color: green;
+        color: white;
+        height: 160px;
+        width: 160px;
+        display: flex;
+        margin-top: -160px;
+        justify-content: center;
+        align-items: center;
+        font-family: fantasy;
+        animation: round 3s ease-in-out ;
+}
+@keyframes round{
+        0%{
+                transform: rotate(0deg);
+                right: 0;
+                /* transform: translate(300px); */
+        }
+        100%{
+                transform: rotate(360deg);
+                right: 70%;
+                /* transform: translate(0); */
+        }
+}
+#foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+}
+
+#footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-image: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        
+}
+
+#link{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        font-size: 25px;
+        
+}
+#book{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1531px;
+}
+#inst{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#btnn{
+        background-color:white;
+        font-family: fantasy;
+        
+        margin-left: 10px;
+        height: 40px;
+        width: 110px;
+        border: none;
+        border-radius: 15px;
+        
+}
+#btnn:hover{
+       
+        color: green;
+}
+#card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 90px;
+        margin-top: 20px;
+        
+}
+#about{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        
+}
+#get{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+}
+#title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+}
+
+
+
